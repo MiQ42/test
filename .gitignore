@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+results/raw/*.jsonl
+results/scored/*.jsonl
+results/scored/*.csv
+results/scored/*.json
+results/figures/*.png
+results/figures/*.svg
+!results/raw/.gitkeep
+!results/scored/.gitkeep
+!results/figures/.gitkeep

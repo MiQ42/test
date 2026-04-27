@@ -1,0 +1,69 @@
+{
+  "category": "C_praktisch",
+  "description": "Praktische Entscheidungsfragen. Prüft Übertragung des Wellenfeld-Modus auf Beratung. Gold ist hier eine Liste von Faktoren, die in einer guten Antwort vorkommen sollten.",
+  "items": [
+    {
+      "id": "C1",
+      "de": "Sollte ich für ein neues Produkt mit unklarer Skalierung Microservices oder einen Monolithen wählen?",
+      "en": "For a new product with unclear scaling needs, should I choose microservices or a monolith?",
+      "gold_de": [
+        "Teamgröße und organisatorische Reife",
+        "Domänen- und Schnittstellenklarheit",
+        "Operative Komplexität (Deployment, Observability)",
+        "Erwartete Last und Skalierungsachsen",
+        "Iterationsgeschwindigkeit in der frühen Phase",
+        "Pfadabhängigkeit / Migrationsfähigkeit zwischen den Optionen"
+      ],
+      "gold_en": [
+        "Team size and organizational maturity",
+        "Domain and interface clarity",
+        "Operational complexity (deployment, observability)",
+        "Expected load and scaling axes",
+        "Iteration speed in the early phase",
+        "Path dependency / migration feasibility between the options"
+      ]
+    },
+    {
+      "id": "C2",
+      "de": "Wie strukturiere ich ein interdisziplinäres Forschungsteam für ein langfristiges Projekt?",
+      "en": "How do I structure an interdisciplinary research team for a long-term project?",
+      "gold_de": [
+        "Rollen und gemeinsame Sprache zwischen Disziplinen",
+        "Entscheidungsrechte und Verantwortungsklarheit",
+        "Kommunikationsrhythmus und gemeinsame Artefakte",
+        "Anreize, Karrierepfade, Wertschätzung quer zu Disziplinen",
+        "Integrationsmechanismen (gemeinsame Outputs, geteilte Tools)",
+        "Anpassungsfähigkeit an verschobene Schwerpunkte über die Projektzeit"
+      ],
+      "gold_en": [
+        "Roles and shared language across disciplines",
+        "Decision rights and responsibility clarity",
+        "Communication rhythm and shared artifacts",
+        "Incentives, career paths, recognition across disciplines",
+        "Integration mechanisms (joint outputs, shared tooling)",
+        "Adaptability to shifting emphasis over the project lifetime"
+      ]
+    },
+    {
+      "id": "C3",
+      "de": "Wann ist es Zeit, eine bestehende Software-Architektur grundlegend zu migrieren statt zu erweitern?",
+      "en": "When is it time to fundamentally migrate an existing software architecture rather than extending it?",
+      "gold_de": [
+        "Steigende Kosten pro Änderung (Änderungsreibung)",
+        "Häufung von Bugs aus Konzeptkonflikten",
+        "Performance-/Skalierungsgrenze in Sicht",
+        "Personalrisiko (Wissen konzentriert in wenigen Köpfen)",
+        "Kompatibilität mit künftigen Anforderungen",
+        "Verfügbarkeit eines klar besseren Zielbilds, nicht nur Unzufriedenheit"
+      ],
+      "gold_en": [
+        "Rising cost per change (change friction)",
+        "Cluster of bugs from conceptual conflicts",
+        "Performance/scaling ceiling in sight",
+        "Personnel risk (knowledge held by few)",
+        "Compatibility with foreseeable future requirements",
+        "Availability of a clearly better target picture, not just dissatisfaction"
+      ]
+    }
+  ]
+}

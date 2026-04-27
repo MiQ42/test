@@ -1,0 +1,61 @@
+{
+  "category": "A_faktisch",
+  "description": "Faktisch-technische Fragen mit eindeutiger Sachantwort. Goldstandard-Kernfakten dienen Metrik M5.",
+  "items": [
+    {
+      "id": "A1",
+      "de": "Wie funktioniert ein PID-Regler?",
+      "en": "How does a PID controller work?",
+      "gold_de": [
+        "P (proportional): Stellgröße proportional zur aktuellen Regelabweichung",
+        "I (integral): Stellgröße proportional zum Integral der Regelabweichung über die Zeit, eliminiert bleibende Regelabweichung",
+        "D (differential): Stellgröße proportional zur Änderungsrate der Regelabweichung, dämpft Überschwingen",
+        "Stellgröße ist die Summe der drei Anteile",
+        "Anwendung in geschlossenen Regelkreisen"
+      ],
+      "gold_en": [
+        "P (proportional): output proportional to current error",
+        "I (integral): output proportional to integral of error over time, eliminates steady-state error",
+        "D (derivative): output proportional to rate of change of error, damps overshoot",
+        "Output is sum of three terms",
+        "Used in closed-loop control"
+      ]
+    },
+    {
+      "id": "A2",
+      "de": "Was ist Kapselung in der objektorientierten Programmierung?",
+      "en": "What is encapsulation in object-oriented programming?",
+      "gold_de": [
+        "Bündelung von Daten und Methoden in einer Klasse/Objekt",
+        "Trennung von interner Implementierung und externer Schnittstelle",
+        "Zugriffskontrolle (private/protected/public)",
+        "Information Hiding: interner Zustand wird vor direkter Manipulation geschützt"
+      ],
+      "gold_en": [
+        "Bundling of data and methods within a class/object",
+        "Separation of internal implementation from external interface",
+        "Access control (private/protected/public)",
+        "Information hiding: internal state shielded from direct manipulation"
+      ]
+    },
+    {
+      "id": "A3",
+      "de": "Warum ist Wasser bei 4 °C am dichtesten?",
+      "en": "Why is water densest at 4 °C?",
+      "gold_de": [
+        "Wasserstoffbrückenbindungen erzeugen unterhalb 4 °C eine geöffnete tetraedrische Struktur",
+        "Beim Erwärmen über 0 °C brechen einige Wasserstoffbrücken auf, Moleküle rücken näher zusammen → Dichte steigt",
+        "Über 4 °C dominiert die thermische Ausdehnung, Dichte sinkt wieder",
+        "Maximum bei ca. 3,98 °C",
+        "Bezeichnet als Dichteanomalie des Wassers"
+      ],
+      "gold_en": [
+        "Hydrogen bonds create an open tetrahedral structure below 4 °C",
+        "When warming above 0 °C, some H-bonds break, molecules pack closer → density rises",
+        "Above 4 °C, thermal expansion dominates, density falls again",
+        "Maximum at about 3.98 °C",
+        "Known as the density anomaly of water"
+      ]
+    }
+  ]
+}
