@@ -1,0 +1,27 @@
+{
+  "category": "B_konzeptuell",
+  "description": "Konzeptuell-philosophische Fragen ohne eindeutige Sachantwort. Hauptbühne des Wellenfeld-Effekts. Kein Goldstandard nötig (M5 wird hier nicht erhoben).",
+  "items": [
+    {
+      "id": "B1",
+      "de": "Was ist Bedeutung?",
+      "en": "What is meaning?",
+      "gold_de": [],
+      "gold_en": []
+    },
+    {
+      "id": "B2",
+      "de": "Wann ist ein System lebendig?",
+      "en": "When is a system alive?",
+      "gold_de": [],
+      "gold_en": []
+    },
+    {
+      "id": "B3",
+      "de": "Was unterscheidet Wissen von Information?",
+      "en": "What distinguishes knowledge from information?",
+      "gold_de": [],
+      "gold_en": []
+    }
+  ]
+}
